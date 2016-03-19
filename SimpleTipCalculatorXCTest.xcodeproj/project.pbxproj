@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		C87AF7FE1C9D515A0092DCF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AF7FD1C9D515A0092DCF6 /* AppDelegate.swift */; };
-		C87AF8001C9D515A0092DCF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AF7FF1C9D515A0092DCF6 /* ViewController.swift */; };
 		C87AF8031C9D515A0092DCF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87AF8011C9D515A0092DCF6 /* Main.storyboard */; };
 		C87AF8051C9D515A0092DCF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87AF8041C9D515A0092DCF6 /* Assets.xcassets */; };
 		C87AF8081C9D515A0092DCF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87AF8061C9D515A0092DCF6 /* LaunchScreen.storyboard */; };
 		C87AF8131C9D515A0092DCF6 /* SimpleTipCalculatorXCTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AF8121C9D515A0092DCF6 /* SimpleTipCalculatorXCTestTests.swift */; };
 		C87AF81E1C9D515A0092DCF6 /* SimpleTipCalculatorXCTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AF81D1C9D515A0092DCF6 /* SimpleTipCalculatorXCTestUITests.swift */; };
+		C87AF82C1C9D51A70092DCF6 /* STCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AF82B1C9D51A70092DCF6 /* STCalculatorViewController.swift */; };
+		C87AF82E1C9D51BB0092DCF6 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AF82D1C9D51BB0092DCF6 /* Calculator.swift */; };
+		C87AF8311C9D6B0E0092DCF6 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AF82D1C9D51BB0092DCF6 /* Calculator.swift */; };
+		C87AF8361C9D79E70092DCF6 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = C87AF8351C9D79E70092DCF6 /* Helper.m */; };
+		C87AF8371C9D79E70092DCF6 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = C87AF8351C9D79E70092DCF6 /* Helper.m */; };
+		C87AF8391C9D82780092DCF6 /* TipService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AF8381C9D82780092DCF6 /* TipService.swift */; };
+		C87AF83A1C9D82780092DCF6 /* TipService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AF8381C9D82780092DCF6 /* TipService.swift */; };
+		C87AF83D1C9D83580092DCF6 /* TipServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AF83C1C9D83580092DCF6 /* TipServiceTest.swift */; };
+		C87AF83F1C9D86BB0092DCF6 /* STCVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AF83E1C9D86BB0092DCF6 /* STCVCTests.swift */; };
+		C87AF8401C9D881C0092DCF6 /* STCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AF82B1C9D51A70092DCF6 /* STCalculatorViewController.swift */; };
+		C87AF8411C9D895B0092DCF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87AF8011C9D515A0092DCF6 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,6 @@
 /* Begin PBXFileReference section */
 		C87AF7FA1C9D515A0092DCF6 /* SimpleTipCalculatorXCTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTipCalculatorXCTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C87AF7FD1C9D515A0092DCF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C87AF7FF1C9D515A0092DCF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C87AF8021C9D515A0092DCF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C87AF8041C9D515A0092DCF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C87AF8071C9D515A0092DCF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,14 @@
 		C87AF8191C9D515A0092DCF6 /* SimpleTipCalculatorXCTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTipCalculatorXCTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C87AF81D1C9D515A0092DCF6 /* SimpleTipCalculatorXCTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTipCalculatorXCTestUITests.swift; sourceTree = "<group>"; };
 		C87AF81F1C9D515A0092DCF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C87AF82B1C9D51A70092DCF6 /* STCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = STCalculatorViewController.swift; path = ../STCalculatorViewController.swift; sourceTree = "<group>"; };
+		C87AF82D1C9D51BB0092DCF6 /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Calculator.swift; path = ../Calculator.swift; sourceTree = "<group>"; };
+		C87AF8321C9D76FE0092DCF6 /* SimpleTipCalculatorTest-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SimpleTipCalculatorTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		C87AF8331C9D78730092DCF6 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		C87AF8351C9D79E70092DCF6 /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		C87AF8381C9D82780092DCF6 /* TipService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipService.swift; sourceTree = "<group>"; };
+		C87AF83C1C9D83580092DCF6 /* TipServiceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipServiceTest.swift; sourceTree = "<group>"; };
+		C87AF83E1C9D86BB0092DCF6 /* STCVCTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STCVCTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +114,10 @@
 		C87AF7FC1C9D515A0092DCF6 /* SimpleTipCalculatorXCTest */ = {
 			isa = PBXGroup;
 			children = (
+				C87AF82F1C9D576C0092DCF6 /* Controller */,
+				C87AF8301C9D57730092DCF6 /* Model */,
+				C87AF83B1C9D827E0092DCF6 /* Services */,
 				C87AF7FD1C9D515A0092DCF6 /* AppDelegate.swift */,
-				C87AF7FF1C9D515A0092DCF6 /* ViewController.swift */,
 				C87AF8011C9D515A0092DCF6 /* Main.storyboard */,
 				C87AF8041C9D515A0092DCF6 /* Assets.xcassets */,
 				C87AF8061C9D515A0092DCF6 /* LaunchScreen.storyboard */,
@@ -112,6 +131,11 @@
 			children = (
 				C87AF8121C9D515A0092DCF6 /* SimpleTipCalculatorXCTestTests.swift */,
 				C87AF8141C9D515A0092DCF6 /* Info.plist */,
+				C87AF8321C9D76FE0092DCF6 /* SimpleTipCalculatorTest-Bridging-Header.h */,
+				C87AF8331C9D78730092DCF6 /* Helper.h */,
+				C87AF8351C9D79E70092DCF6 /* Helper.m */,
+				C87AF83C1C9D83580092DCF6 /* TipServiceTest.swift */,
+				C87AF83E1C9D86BB0092DCF6 /* STCVCTests.swift */,
 			);
 			path = SimpleTipCalculatorXCTestTests;
 			sourceTree = "<group>";
@@ -123,6 +147,30 @@
 				C87AF81F1C9D515A0092DCF6 /* Info.plist */,
 			);
 			path = SimpleTipCalculatorXCTestUITests;
+			sourceTree = "<group>";
+		};
+		C87AF82F1C9D576C0092DCF6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C87AF82B1C9D51A70092DCF6 /* STCalculatorViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C87AF8301C9D57730092DCF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C87AF82D1C9D51BB0092DCF6 /* Calculator.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C87AF83B1C9D827E0092DCF6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C87AF8381C9D82780092DCF6 /* TipService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C87AF8411C9D895B0092DCF6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +308,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C87AF8001C9D515A0092DCF6 /* ViewController.swift in Sources */,
+				C87AF8391C9D82780092DCF6 /* TipService.swift in Sources */,
+				C87AF82E1C9D51BB0092DCF6 /* Calculator.swift in Sources */,
+				C87AF82C1C9D51A70092DCF6 /* STCalculatorViewController.swift in Sources */,
 				C87AF7FE1C9D515A0092DCF6 /* AppDelegate.swift in Sources */,
+				C87AF8361C9D79E70092DCF6 /* Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +320,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C87AF8401C9D881C0092DCF6 /* STCalculatorViewController.swift in Sources */,
 				C87AF8131C9D515A0092DCF6 /* SimpleTipCalculatorXCTestTests.swift in Sources */,
+				C87AF83F1C9D86BB0092DCF6 /* STCVCTests.swift in Sources */,
+				C87AF83A1C9D82780092DCF6 /* TipService.swift in Sources */,
+				C87AF8371C9D79E70092DCF6 /* Helper.m in Sources */,
+				C87AF8311C9D6B0E0092DCF6 /* Calculator.swift in Sources */,
+				C87AF83D1C9D83580092DCF6 /* TipServiceTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,10 +458,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SimpleTipCalculatorXCTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mihailsalari.SimpleTipCalculatorXCTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -411,6 +471,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SimpleTipCalculatorXCTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mihailsalari.SimpleTipCalculatorXCTest;
@@ -426,6 +487,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mihailsalari.SimpleTipCalculatorXCTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = " /Users/AppleID/Developer/Mark Price/SimpleTipCalculatorXCTest/SimpleTipCalculatorXCTestTests/SimpleTipCalculatorTest-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleTipCalculatorXCTest.app/SimpleTipCalculatorXCTest";
 			};
 			name = Debug;
@@ -438,6 +500,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mihailsalari.SimpleTipCalculatorXCTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleTipCalculatorXCTest.app/SimpleTipCalculatorXCTest";
 			};
 			name = Release;
